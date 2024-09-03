@@ -8,6 +8,15 @@
         "div_id": ""
     },
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the Gta button to be positioned on the screen?\", \"option1\": \"At the top of the page\", \"option2\": \"At the bottom of the page\"}, {\"question 2\": \"What color do you envision for the Gta button?\", \"option1\": \"Blue\", \"option2\": \"Green\"}], \"input_token_count\": 291, \"output_token_count\": 84, \"time_taken\": \"0:00:01.644528\"}",
+        "message_id": "guest03092024112616",
+        "timestamp": "03092024112623",
+        "component_file_name": "simple_cta_component_1725362746",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "add a button with text Gta",
         "message_id": "guest03092024112616",
