@@ -8,6 +8,15 @@
         "div_id": ""
     },
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add button with text 'Gta'\", \"checked\": true}, {\"feature\": \"Use an eye-catching color for the button\", \"checked\": true}, {\"feature\": \"Add a hover effect for the button\", \"checked\": false}, {\"feature\": \"Make the button round-shaped\", \"checked\": false}, {\"feature\": \"Add a tooltip that explains the button function\", \"checked\": false}], \"input_token_count\": 245, \"output_token_count\": 96, \"time_taken\": \"0:00:01.599722\"}",
+        "message_id": "guest03092024112616",
+        "timestamp": "03092024112626",
+        "component_file_name": "simple_cta_component_1725362746",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the Gta button to be positioned on the screen?\", \"option1\": \"At the top of the page\", \"option2\": \"At the bottom of the page\"}, {\"question 2\": \"What color do you envision for the Gta button?\", \"option1\": \"Blue\", \"option2\": \"Green\"}], \"input_token_count\": 291, \"output_token_count\": 84, \"time_taken\": \"0:00:01.644528\"}",
         "message_id": "guest03092024112616",
