@@ -12,5 +12,11 @@
         "content": "add a button with text Gta",
         "timestamp": "03092024112618",
         "message_id": "guest03092024112616"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Sure, I'll add a button with the text \"Gta.\"",
+        "timestamp": "03092024112618",
+        "message_id": "guest03092024112616"
     }
 ]
