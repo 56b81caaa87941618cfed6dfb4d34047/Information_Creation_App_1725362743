@@ -2,33 +2,33 @@
 INSTRUCTION: Summary: This component contains a h2 heading title for the CTA, a line of text under it, and a button underneath it. They are all centre aligned.
 -->
 <template>
-    <section id="cta-component" class="bg-gray-50 dark:bg-gray-800 flex-1">
-        <div id="cta-inner-container" class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
-            <div id="cta-content" class="max-w-screen-sm mx-auto text-center">
+    <section id="cta-component" class="bg-gradient-to-br from-pink-500 to-purple-700 flex-1 py-16">
+        <div id="cta-inner-container" class="max-w-screen-xl px-4 mx-auto">
+            <div id="cta-content" class="max-w-screen-sm mx-auto text-center bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-lg shadow-lg p-8">
                 <div id="cta-title-container" class="flex">
-                    <h2 id="cta-title" class="flex-1 mb-4 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white">
+                    <h2 id="cta-title" class="flex-1 mb-4 text-3xl font-extrabold leading-tight tracking-tight text-white">
                         Unleash the Power of Information
                     </h2>
                 </div>
 
                 <div id="cta-subtitle-container" class="flex">
-                    <p id="cta-subtitle" class="flex-1 mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">
+                    <p id="cta-subtitle" class="flex-1 mb-6 font-light text-pink-100 md:text-lg">
                         Transform raw data into actionable insights with our cutting-edge information processing platform
                     </p>
                 </div>
 
-                <div id="cta-button-container" class="flex">
-                    <a id="cta-button" href="#" class="flex-1 text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">
-                        Start Creating Now
+                <div id="cta-button-container" class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a id="cta-button" href="#" class="flex-1 text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 transition duration-300 ease-in-out transform hover:scale-105">
                         Start Creating Now
                     </a>
-                    <a id="gta-button" href="#" class="flex-1 text-white bg-green-600 hover:bg-green-700 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 ml-2 mb-2 dark:bg-green-500 dark:hover:bg-green-600 focus:outline-none dark:focus:ring-green-700">
+                    <a id="gta-button" href="#" class="flex-1 text-white bg-pink-500 hover:bg-pink-600 focus:ring-4 focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 transition duration-300 ease-in-out transform hover:scale-105">
                         Gta
                     </a>
-                    <a id="youp-button" href="#" class="flex-1 text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 ml-2 mb-2 dark:bg-blue-500 dark:hover:bg-blue-600 focus:outline-none dark:focus:ring-blue-700">
+                    <a id="youp-button" href="#" class="flex-1 text-white bg-indigo-500 hover:bg-indigo-600 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 transition duration-300 ease-in-out transform hover:scale-105">
                         Youp
                     </a>
                 </div>
+            </div>
         </div>
     </section>
 </template>
