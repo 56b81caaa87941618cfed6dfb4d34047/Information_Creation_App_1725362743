@@ -8,6 +8,15 @@
         "div_id": ""
     },
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific functionality do you want the 'Youp' button to have?\", \"option1\": \"It should link to a specific page.\", \"option2\": \"It should trigger a specific action within the app.\"}, {\"question 2\": \"Where would you like the 'Youp' button to be positioned on the interface?\", \"option1\": \"In the main navigation area.\", \"option2\": \"At the bottom of the screen.\"}], \"input_token_count\": 316, \"output_token_count\": 104, \"time_taken\": \"0:00:01.605700\"}",
+        "message_id": "guest03092024112657",
+        "timestamp": "03092024112709",
+        "component_file_name": "simple_cta_component_1725362746",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "add a button with text Youp",
         "message_id": "guest03092024112657",
