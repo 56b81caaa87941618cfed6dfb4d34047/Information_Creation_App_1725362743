@@ -25,7 +25,10 @@ INSTRUCTION: Summary: This component contains a h2 heading title for the CTA, a 
                     <a id="gta-button" href="#" class="flex-1 text-white bg-green-600 hover:bg-green-700 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 ml-2 mb-2 dark:bg-green-500 dark:hover:bg-green-600 focus:outline-none dark:focus:ring-green-700">
                         Gta
                     </a>
-            </div>
+                    <a id="youp-button" href="#" class="flex-1 text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 ml-2 mb-2 dark:bg-blue-500 dark:hover:bg-blue-600 focus:outline-none dark:focus:ring-blue-700">
+                        Youp
+                    </a>
+                </div>
         </div>
     </section>
 </template>
